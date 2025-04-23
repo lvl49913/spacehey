@@ -1,5 +1,5 @@
 :root {
-	--blue-gradient: linear-gradient(to bottom, #245edb 0%, #3f8cf3 9%, #245edb 18%, #ffadff 92%, #333 100%) center/cover no-repeat;
+	--blue-gradient: linear-gradient(to bottom, #f7a9cd 0%, #ffc2de 9%, #f7a9cd 18%, #ffadff 92%, #333 100%) center/cover no-repeat;
 }
 body {
 	background-image: url('https://s3.amazonaws.com//depot.pacdudegames.com/spacehey/bliss.jpg');
@@ -9,24 +9,24 @@ body {
 }
 footer{
 	margin-bottom:3rem;
-	border:2px solid #1D43D1;
+	border:2px solid #e371a6;
 }
 nav .top, nav .links {
-	border-left: 2px solid #1D43D1;
-	border-right: 2px solid #1D43D1;
+	border-left: 2px solid #e371a6;
+	border-right: 2px solid #e371a6;
 }
 nav .info{
-	border-left: 2px solid #1D43D1;
-	border-right: 2px solid #1D43D1;
+	border-left: 2px solid #e371a6;
+	border-right: 2px solid #e371a6;
 }
 nav .links {
-	border-bottom: 2px solid #1D43D1;
+	border-bottom: 2px solid #e371a6;
 }
 nav:before {
 	content: "SpaceHey Header";
 	display: block;
 	padding: 1em;
-	background: linear-gradient(to bottom, #245edb 0%, #3f8cf3 9%, #245edb 18%, #245edb 92%, #333 100%) center/cover no-repeat;
+	background: linear-gradient(to bottom, #f7a9cd 0%, #ffc2de 9%, #f7a9cd 18%, #f7a9cd 92%, #333 100%) center/cover no-repeat;
 	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	font-size: 1em;
 	text-shadow: 2px 2px 0px #000;
