@@ -47,14 +47,6 @@ nav:after {
 	margin-right: .5em;
 	pointer-events: none;
 }
-main:before {
-	content: url('https://media.giphy.com/media/w3AmrG1E1vr56/giphy.gif');
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	transform: translateX(-3vw) translateY(-6vh);
-	pointer-events: none;
-}
 main {
 	background: none;
 	position: relative;
