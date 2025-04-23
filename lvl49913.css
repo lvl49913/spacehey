@@ -1,12 +1,34 @@
 :root {
-	--blue-gradient: linear-gradient(to bottom, #fbb7d2 0%, #fbcfe8 9%, #fbb7d2 18%, #fbb7d2 92%, #f8e1ea 100%) center/cover no-repeat;
+	--blue-gradient: linear-gradient(to bottom, #245edb 0%, #3f8cf3 9%, #245edb 18%, #245edb 92%, #333 100%) center/cover no-repeat;
 }
 
 body {
-	background-image: url('https://files.catbox.moe/n3v6gv.jpg');
+	background-image: url('https://s3.amazonaws.com//depot.pacdudegames.com/spacehey/bliss.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+}
+body:before {
+	content: " ";
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-image: url('https://media.giphy.com/media/LbSdXQbS0XVVC/giphy.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	animation: yourAnimation 3s ease 0s 1 normal forwards;
+	pointer-events: none;
+}
+@keyframes yourAnimation { 0.0% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; } }
+nav, footer {
+	margin: 1em;
+	position: relative;
+	box-shadow: 5px 8px 10px #0006;
 }
 footer{
 	margin-bottom:3rem;
